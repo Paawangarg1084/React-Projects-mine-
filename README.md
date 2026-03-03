@@ -1,26 +1,17 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> e8cb2353ec7dd394acf1efc39aea842ca834ffd5
-# React + Vite
+# React Projects by Paawan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of React projects built while learning React with Hitesh Choudhary (Chai aur Code).
 
-Currently, two official plugins are available:
+## Projects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **BgChanger** - Background color switcher using useState
+- **ContextApi** - Context API with login/profile
+- **ThemeSwitcher** - Dark/light theme switcher
+- **PwdGen** - Password generator
+- **currency** - Currency converter with custom hooks
+- **reactRouter** - React Router crash course
+- **10todoContext** - Todo app with Context API + localStorage
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-<<<<<<< HEAD
-=======
-=======
-# React-Projects-mine-
->>>>>>> 90174029d38760e8f8abeff3fc4e0c5fd71ca5ec
->>>>>>> e8cb2353ec7dd394acf1efc39aea842ca834ffd5
+React, Vite, Tailwind CSS, JavaScript
