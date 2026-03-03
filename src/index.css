@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 :root {
+=======
+
+@import "tailwindcss";
+
+/* :root {
+>>>>>>> e8cb2353ec7dd394acf1efc39aea842ca834ffd5
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -11,7 +18,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
 }
+=======
+} */
+>>>>>>> e8cb2353ec7dd394acf1efc39aea842ca834ffd5
 
 a {
   font-weight: 500;
