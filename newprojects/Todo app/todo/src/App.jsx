@@ -1,4 +1,6 @@
-import { use, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
+
+import classes from "./style.module.css"
 
 
 function App() {
@@ -9,14 +11,21 @@ function App() {
   async function fetchListtodo(){
     try{
       setLoading(true)
-      const apiResponse = await fetch('htpps://dummyjson.com/todos');
+      const apiResponse = await fetch('https://dummyjson.com/todos');
       const result = await apiResponse.json();
 
+      if(result?.todos && result?.todos?.length >0){
+        settodoList([]);
+        setLoading(false);
+        setErrorMsg('')
+      }
+      
+
+
       console.log(result);
-
-
     }catch(e){
-      console.log("Some error occured");
+      console.log(e)
+      setErrorMsg("Some error occured");
       
     }
     
@@ -24,12 +33,12 @@ function App() {
 
   useEffect(()=>{
     fetchListtodo();
-  })
+  },[]);
   
   return (
     <>
-      <div>
-        <h1>Simple todo app Using material UI</h1>
+      <div className={classes.mainWraper}>
+        <h1 className={classes.headerTitle}>Simple todo app Using material UI</h1>
       </div>
     </>
   )
